@@ -47,7 +47,7 @@ Dépendances installés via npm:
 
 ## Usage ##
 
-#Fichier `.env.dist`
+# Fichier `.env.dist`
 
 - Ouvrir le fichier "/backend/.env.dist"
 - Inserer votre identifiant et mot de passe MongoDB.
@@ -55,7 +55,7 @@ Dépendances installés via npm:
 - Modifier l'extension du fichier ".env.dist" par ".env".
 - La connexion à MongoDB sera alors possible.
 
-#Executer dans l'terminal: 
+# Executer dans l'terminal: 
 
 - 1- `cd backend`
 - 2- `nodemon`
