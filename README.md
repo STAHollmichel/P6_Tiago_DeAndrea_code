@@ -52,11 +52,11 @@ Dépendances installés via npm:
 
 #Fichier ".env.dist"
 
- Ouvrir le fichier "/backend/.env.dist"
- Inserer votre identifiant et mot de passe MongoDB.
- Renseigner votre chaîne secrète.
- Modifier l'extension du fichier ".env.dist" par ".env".
- La connexion à MongoDB sera alors possible.
+- Ouvrir le fichier "/backend/.env.dist"
+- Inserer votre identifiant et mot de passe MongoDB.
+- Renseigner votre chaîne secrète.
+- Modifier l'extension du fichier ".env.dist" par ".env".
+- La connexion à MongoDB sera alors possible.
 
 #Executer dans l'terminal: 
 
