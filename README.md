@@ -1,7 +1,5 @@
 # HOT TAKES [API Development]
 
-<img href="https://user.oc-static.com/upload/2021/07/29/16275605596354_PiiquanteLogo.png">
-
 
 ## Intro ##
 
@@ -59,11 +57,11 @@ Dépendances installés via npm:
 
 #Executer dans l'terminal: 
 
-1- `cd backend`
-2- `nodemon`
+- 1- `cd backend`
+- 2- `nodemon`
 
 # Ouvrir un deuxieme terminal et executer:
-1- `cd frontend`
-2- `npm start`
+- 1- `cd frontend`
+- 2- `npm start`
 
 Si a une erreur de lancement ou une erreur 404, naviguez dans votre navigateur jusqu'à http://localhost:8081.
