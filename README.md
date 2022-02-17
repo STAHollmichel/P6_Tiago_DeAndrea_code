@@ -34,7 +34,7 @@ Dépendances utilisées via npm:
 
 ## Frontend ##
 
-Cloné à partir du repo: <a href="https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6"></a>
+Cloné à partir du repo: https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
 
 Dévellopeur : Nikolas 
 
