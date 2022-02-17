@@ -1,13 +1,12 @@
-# Piiquante [API Development]
+# HOT TAKES [API Development]
 
-<br>
-<img src="images/piiquante_resize.png">
-<br>
+<img href="https://user.oc-static.com/upload/2021/07/29/16275605596354_PiiquanteLogo.png">
+
 
 ## Intro ##
 
 
-Development du backend, l'api pour la boutique Piiquante
+Development du backend, l'api pour la boutique `Piiquante`
 
 Cette api c'est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.
 
@@ -50,7 +49,7 @@ Dépendances installés via npm:
 
 ## Usage ##
 
-#Fichier ".env.dist"
+#Fichier `.env.dist`
 
 - Ouvrir le fichier "/backend/.env.dist"
 - Inserer votre identifiant et mot de passe MongoDB.
@@ -60,11 +59,11 @@ Dépendances installés via npm:
 
 #Executer dans l'terminal: 
 
-1- <span  style="background:grey;padding:0 5px;border:solid 1px black;">cd backend</span>
-2- <span  style="background:grey;padding:0 5px;border:solid 1px black;">nodemon</span>
+1- `cd backend`
+2- `nodemon`
 
-Ouvrir un deuxieme terminal et executer:
-1- <span  style="background:grey;padding:0 5px;border:solid 1px black;">cd frontend</span>
-2- <span  style="background:grey;padding:0 5px;border:solid 1px black;">npm start</span>
+# Ouvrir un deuxieme terminal et executer:
+1- `cd frontend`
+2- `npm start`
 
 Si a une erreur de lancement ou une erreur 404, naviguez dans votre navigateur jusqu'à http://localhost:8081.
