@@ -1,23 +1,70 @@
-# HOT TAKES #
+# Piiquante [API Development]
 
-## Installation ##
+<br>
+<img src="images/piiquante_resize.png">
+<br>
 
-Here are the dependancies you need to install:
-- NodeJS 12.14 or 14.0.
-- Angular CLI 7.0.2.
-- node-sass : make sure to use the corresponding version to NodeJS. For Noe 14.0 for instance, you need node-sass in version 4.14+.
+## Intro ##
 
-On Windows, these installations require to use PowerShell in administrator mode.
 
-Then, clone this repo, run `npm install`, and run `npm install --save-dev run-script-os`.
+Development du backend, l'api pour la boutique Piiquante
+
+Cette api c'est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.
+
+
+#Technologies & frameworks utilisés
+- JavaScript
+- NodeJS / Express (API REST)
+- MongoDB
+- npm
+
+# Backend
+
+Dévellopeur : Tiago de Andrea
+
+Dépendances utilisées via npm:
+- nodemon
+- express
+- mongoose
+- mongoose-unique-validator
+- bcrypt
+- jsonwebtoken
+- dotenv
+- multer
+- password-validator
+- helmet
+
+
+## Frontend ##
+
+Cloné à partir du repo: <a href="https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6"></a>
+
+Dévellopeur : Nikolas 
+
+Dépendances installés via npm:
+- NodeJS
+- Angular 
+- node-sass 
+
 
 
 ## Usage ##
 
-Run `npm start`. This should both run the local server and launch your browser.
+#Fichier ".env.dist"
 
-If your browser fails to launch, or shows a 404 error, navigate your browser to http://localhost:8080.
+ Ouvrir le fichier "/backend/.env.dist"
+ Inserer votre identifiant et mot de passe MongoDB.
+ Renseigner votre chaîne secrète.
+ Modifier l'extension du fichier ".env.dist" par ".env".
+ La connexion à MongoDB sera alors possible.
 
-The app should reload automatically when you make a change to a file.
+#Executer dans l'terminal: 
 
-Use `Ctrl+C` in the terminal to stop the local server.
+1- <span  style="background:grey;padding:0 5px;border:solid 1px black;">cd backend</span>
+2- <span  style="background:grey;padding:0 5px;border:solid 1px black;">nodemon</span>
+
+Ouvrir un deuxieme terminal et executer:
+1- <span  style="background:grey;padding:0 5px;border:solid 1px black;">cd frontend</span>
+2- <span  style="background:grey;padding:0 5px;border:solid 1px black;">npm start</span>
+
+Si a une erreur de lancement ou une erreur 404, naviguez dans votre navigateur jusqu'à http://localhost:8081.
