@@ -9,7 +9,7 @@ Development du backend, l'api pour la boutique `Piiquante`
 Cette api c'est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.
 
 
-#Technologies & frameworks utilisés
+# Technologies & frameworks utilisés
 - JavaScript
 - NodeJS / Express (API REST)
 - MongoDB
