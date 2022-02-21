@@ -1,5 +1,8 @@
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken'); // L'import de jwt (vérification tokens)
 
+
+
+// L'export du middleware de protection des routes 'Sauces'
 module.exports = (req, res, next) => {
   try {
     const token = req.headers.authorization.split(' ')[1];

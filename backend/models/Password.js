@@ -1,9 +1,10 @@
-const passwordValidator = require('password-validator');
+const passwordValidator = require('password-validator'); // L'import du validateur de password
 
 
+// Création du schéma password
 const passwordSchema = new passwordValidator();
 
-
+// Ces propriétés
 passwordSchema
 .is().min(5)                                    
 .is().max(25)                                   
@@ -13,5 +14,5 @@ passwordSchema
 .has().not().spaces()                           
 .is().not().oneOf(['Passw0rd', 'Password123']); 
 
-
-module.exports = passwordSchema
+// L'exporte du modèle vers son middleware
+module.exports = passwordSchema 

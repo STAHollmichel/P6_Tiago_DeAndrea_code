@@ -4,22 +4,22 @@
 ## Intro ##
 
 
-Development du backend, l'api pour la boutique `Piiquante`
+Développement du backend, l'api pour la boutique de la marque `Piiquante`
 
-Cette api c'est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.
+Cette api, c'est une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.
 
 
 # Technologies & frameworks utilisés
 - JavaScript
-- NodeJS / Express (API REST)
+- Node.js / Express (API REST)
 - MongoDB
-- npm
+- NPM
 
 # Backend
 
 Dévellopeur : Tiago de Andrea
 
-Dépendances utilisées via npm:
+Dépendances utilisées via NPM:
 - nodemon
 - express
 - mongoose
@@ -36,10 +36,10 @@ Dépendances utilisées via npm:
 
 Cloné à partir du repo: https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6
 
-Dévellopeur : Nikolas 
+Développeur : Nikolas 
 
-Dépendances installés via npm:
-- NodeJS
+Dépendances installées via NPM:
+- Node.js
 - Angular 
 - node-sass 
 
@@ -50,17 +50,17 @@ Dépendances installés via npm:
 # Fichier `.env.dist`
 
 - Ouvrir le fichier "/backend/.env.dist"
-- Inserer votre identifiant et mot de passe MongoDB.
+- Insérer votre identifiant et mot de passe MongoDB.
 - Renseigner votre chaîne secrète.
 - Modifier l'extension du fichier ".env.dist" par ".env".
 - La connexion à MongoDB sera alors possible.
 
-# Executer dans l'terminal: 
+# Exécuter dans le terminal : 
 
 - 1- `cd backend`
 - 2- `nodemon`
 
-# Ouvrir un deuxieme terminal et executer:
+# Ouvrir un deuxième terminal et exécuter :
 - 1- `cd frontend`
 - 2- `npm start`
 

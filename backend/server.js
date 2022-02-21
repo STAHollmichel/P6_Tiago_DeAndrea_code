@@ -1,6 +1,8 @@
-const http = require('http');
-const app = require('./app');
+const http = require('http'); // L'import package http de node
+const app = require('./app'); // L'import de l'application
 
+
+// Fonction normalizePort renvoie un port valide
 const normalizePort = val => {
   const port = parseInt(val, 10);
 
@@ -15,6 +17,8 @@ const normalizePort = val => {
 const port = normalizePort(process.env.PORT);
 app.set('port', port);
 
+
+// Fonction errorHandler recherche les différentes erreurs et les gère de manière appropriée
 const errorHandler = error => {
   if (error.syscall !== 'listen') {
     throw error;
@@ -34,14 +38,18 @@ const errorHandler = error => {
       throw error;
   }
 };
-
+// Fonction qui passe l'application express au serveur
 const server = http.createServer(app);
 
+
+// Écouteur d'évènements, consigne le port ou le canal nommé sur lequel le serveur s'exécute dans la console
 server.on('error', errorHandler);
+
 server.on('listening', () => {
   const address = server.address();
   const bind = typeof address === 'string' ? 'pipe ' + address : 'port ' + port;
   console.log('Listening on ' + bind);
 });
+
 
 server.listen(port);

@@ -1,7 +1,8 @@
-const Sauce = require("../models/sauce");
-const fs = require("fs");
+const Sauce = require("../models/sauce"); // L'import du modèle 'Sauce'
+const fs = require("fs"); // Déclaration pour la gestion des fichiers image des sauces
 
 
+// Création d'une sauce
 exports.createSauce = (req, res, next) => {
   const sauceObject = JSON.parse(req.body.sauce);
   delete sauceObject._id;
@@ -18,18 +19,24 @@ exports.createSauce = (req, res, next) => {
       .catch(error => res.status(400).json({ error }));
 };
 
+
+// Récupérer toutes les sauces
 exports.getAllSauces = (req, res, next) => {
   Sauce.find()
       .then((sauces) => res.status(200).json(sauces))
       .catch(error => res.status(400).json({ error }));
 };
 
+
+// Récupérer une sauce
 exports.getOneSauce = (req, res, next) => {
   Sauce.findOne({ _id: req.params.id })
       .then((sauce) => res.status(200).json(sauce))
       .catch(error => res.status(400).json({ error }));
 };
 
+
+// Modifier une sauce
 exports.modifySauce = (req, res, next) => {
   const sauceObject = req.file ? 
       { 
@@ -42,6 +49,8 @@ exports.modifySauce = (req, res, next) => {
       .catch(error => res.status(400).json({ error }));
 };
 
+
+// Effacer une sauce
 exports.deleteSauce = (req, res, next) => {
   Sauce.findOne({ _id: req.params.id })
       .then(sauce => {
@@ -55,6 +64,8 @@ exports.deleteSauce = (req, res, next) => {
       .catch(error => res.status(500).json({ error }));
 };
 
+
+// Gestion d'user likes/dislikes
 exports.userLikeSauce = (req, res, next) => {
 
     let like = req.body.like //Initialiser le statut Like
